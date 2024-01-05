@@ -7,7 +7,9 @@ import {Navbar,
   Testimonials,
   Hero,
   Footer,
-  Treatments} from './components'
+  Stats,
+  Treatments,
+  Business} from './components'
 
 
 
@@ -28,8 +30,10 @@ const App = () =>
 
 <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
     <div className={`${styles.boxWidth}`}>
-      <About/>
-      <Treatments/> 
+      {/* <About/> */}
+      <Stats /> 
+      <Business />
+      <Treatments/>
       <Facility/> 
       <Testimonials/> 
       <Contact/>

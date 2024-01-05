@@ -4,8 +4,10 @@ import Facility from "./Facility";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import Footer from "./Footer";
-import Treatments from "./Treatments";
+import Stats from "./Stats";
 import Contact from "./Contact";
+import Business from "./Business";
+import Treatments from "./Treatments";
 
 export{
     Navbar,
@@ -15,5 +17,7 @@ export{
     Testimonials,
     Hero,
     Footer,
+    Stats,
+    Business,
     Treatments,
 }

@@ -1,4 +1,10 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import React from "react";
+import { GoHeartFill } from "react-icons/go";
+import { GoHomeFill } from "react-icons/go";
+import { BsPersonRaisedHand } from "react-icons/bs";
+import { IoIosPeople } from "react-icons/io";
+import { FaPeopleGroup } from "react-icons/fa6";
 
 export const navLinks = [
   {
@@ -26,24 +32,24 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: GoHeartFill,
+    title: "All Ages",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Serving children, adolescents, and adults - Our team believes in closely working with loved ones and community.",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: GoHomeFill,
+    title: "Home Visits",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We offer home and out of office sessions to provide our patients with specifically targeted individual’s difficulties",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: FaPeopleGroup,
+    title: "Trained Staff",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Our staff is trained in a variety of psychological testing methods based on the reason for the evaluation and are dedicated to providing the most advanced treatment in a nurturing and supportive environment. ",
   },
 ];
 
@@ -75,21 +81,36 @@ export const feedback = [
 ];
 
 export const stats = [
-  {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+   {
+    id:"stat-4",
+    title: "Patients Treated",
+    value: "2,000+",
+  }, 
+        {
+    id:"stat-2",
+    title:"Published Works",
+    value:"300+"
   },
   {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    id: "stat-5",
+    title: "Years in Service",
+    value: "40+",
   },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
-  },
+
+
+
+  //   {
+  //   id: "stat-3",
+  //   title: "Staff Members",
+  //   value: "100+",
+  // },
+  // {
+  //   id: "stat-1",
+  //   title: "Treatments",
+  //   value: "20+",
+  // },
+
+
 ];
 
 export const footerLinks = [

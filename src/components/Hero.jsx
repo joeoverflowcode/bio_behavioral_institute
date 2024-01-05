@@ -24,7 +24,7 @@ const Hero = () =>  (
         <div className='flex flex-row justify-between items-center w-full'>
             <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-black ss:leading-[100px] leading-[75px] tracking-widest'> Proven <br className='sm:block hidden'/> {" "}
               <span
-              className='tracking-wide font-bold text-gradient'>Scientific</span> {" "}
+              className='tracking-tight font-bold text-gradient'>Scientific</span> {" "}
             </h1>
             <div className='ss:flex hidden md:mr-4 mr-0'>
                 <GetStarted />
@@ -35,7 +35,7 @@ const Hero = () =>  (
               Treatment Methods.
             </h1>
         <p className={`${styles.paragraph} max-w-[470px]`}>
-        The Bio Behavioral Institute has been at the forefront of scientifically supported treatment and research for over 40 years. Every patient is evaluated thoroughly with attention given to the factors contributing to their current situation. 
+        Our philosophy is to provide the best possible care for our patients. Every patient is evaluated thoroughly with attention given to the social, biological and psychological factors contributing to their current situation. 
         </p>
       </div>
 
@@ -48,6 +48,9 @@ const Hero = () =>  (
 
       </div>
 
+  <div className={`ss:hidden ${styles.flexCenter}`}>
+  <GetStarted />
+  </div>
 
 
       </section>
