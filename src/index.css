@@ -22,10 +22,10 @@
   background: radial-gradient(
     64.18% 74.18% at 70.16% 22.69%,
     #ecfac1 0.009%,
-    #dbf58b 1.0%,
-    #789b0d 16.04%,
-    #94bf10 30.12%,
-    #86ad0f 50.54%,
+    #dbf58b 2.0%,
+    #94bf10 20.12%,
+    #86ad0f 25.54%,
+    #789b0d 35.04%,
     #8caf20 90%
   );
 
@@ -37,14 +37,13 @@
 
 .bg-green-gradient {
   background: linear-gradient(
-    190.81deg,
-    #ecfac1 5.27%,
-    #dbf58b 8.24%,
-    #94bf10 15.82%,
-    #86ad0f 41.94%,
-    #8caf20 60.29%,
-    #789b0d 99.19%
-  );
+    to bottom, 
+    #ecfac1 0.5%, 
+    #dbf58b 2.5%, 
+    #789b0d, 
+    #94bf10, 
+    #86ad0f, 
+    #8caf20);
 }
 
 .bg-black-gradient {

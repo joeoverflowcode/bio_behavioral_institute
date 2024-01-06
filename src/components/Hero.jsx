@@ -16,8 +16,8 @@ const Hero = () =>  (
           <p className={`${styles.paragraph} ml-2 text-slate-400`}>
           <span className='text-white'>Ask About </span>
           In-Network {" "}
-          <span className='text-white'>Patient </span>
-          Discount
+          <span className='text-white'>Patient Discount</span>
+          
           </p>
         </div>
 

@@ -17,7 +17,7 @@ const Treatments = () => (
             <h2 className={styles.heading2}>Comprehensive Treatment <br className='sm:block hidden'/>Approach</h2>
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}> Our team recognizes that each person enters treatment with a unique life history. We will customize a treatment plan for your needs that provids dedicated and compassionate support as you reach your potential.</p>
             <div className='flex w-full justify-center sm:mt-10 mt-6'>
-<GetStarted />
+<Button />
             </div>
         </div>
     </section>
