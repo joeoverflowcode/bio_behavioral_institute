@@ -57,25 +57,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Our goal is to develop a cutting edge facility to provide patients with the most up to date treatments available for mental illness.",
+    name: "Fugen Neziroglu, PH.D., ABBP, ABPP",
+    title: "Co-Founder / Executive Director",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "We specialize in the treatment of obsessive-compulsive related, anxiety, and mood disorders.",
+    name: "Sony Khemlani-Patel, PH.D.",
+    title: "Clinical Director",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Our clinical approach incorporates positive psychology interventions in order to not only relieve suffering, but enhance overall well-being and quality of life.",
+    name: "Matthew Jacofsky, PSY. D.",
+    title: "Director Review Board",
     img: people03,
   },
 ];

@@ -20,4 +20,5 @@ export{
     Stats,
     Business,
     Treatments,
+
 }

@@ -38,12 +38,13 @@
 .bg-green-gradient {
   background: linear-gradient(
     to bottom, 
-    #ecfac1 0.5%, 
-    #dbf58b 2.5%, 
-    #789b0d, 
+    #ecfac1 0.01%, 
+    #dbf58b 0.10%, 
     #94bf10, 
     #86ad0f, 
-    #8caf20);
+    #8caf20,
+    #789b0d
+  ); 
 }
 
 .bg-black-gradient {
