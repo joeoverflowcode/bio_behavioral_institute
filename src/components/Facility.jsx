@@ -11,7 +11,7 @@ const Facility = () => (
           and Award Winning Staff
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our staff has conducted pioneering research and published over 300 scientific articles, book chapters, and numerous books in our area of expertise. We provide state of the art treatment for obsessive compulsive related, anxiety, and mood disorders.  Our unique intensive outpatient program allows individuals to make gains faster than standard weekly sessions. 
+          Our staff has conducted pioneering research and published over 300 scientific articles, book chapters, and numerous books in our area of expertise. We provide state of the art treatment for obsessive compulsive related, anxiety, and mood disorders. 
            </p>
           <Button styles='mt-10'/>
       </div>

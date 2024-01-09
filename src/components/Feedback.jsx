@@ -3,7 +3,7 @@ import { quotes } from '../assets'
 
 const Feedback = ({content, name, title, img}) => {
   return (
-    <div className='flex  flex-col justify-between px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card hover:text-white'>
+    <div className='flex flex-col justify-between px-8 py-8 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card hover:text-white'>
         <img src={quotes} alt='double_quotes' className='w-[50px] h-[50px] object-contain' />
         <p className='font-poppins font-normal text-[18px] leading-[32px] my-10'>{content}</p>
 
