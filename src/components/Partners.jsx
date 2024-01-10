@@ -7,7 +7,8 @@ const Partners = () => (
     <section className={`${styles.flexCenter} my-4 relative`}>
         <div className={`${styles.flexCenter} flex flex-col text-center`}>
         <h1 className={`${styles.heading2}`}>
-            Member<br className='ss:block hidden'/> Associations
+            Member<br className='ss:block hidden'/>
+            Associations
         </h1>
         <div className={`${styles.flexCenter} grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-6 mt-4`}>
             {partners.map((partner) => (

@@ -28,7 +28,13 @@ import partner02 from "./partner02.png";
 import partner03 from "./partner03.png";
 import partner04 from "./partner04.png";
 import partner05 from "./partner05.png";
-import partner06 from "./partner06.png"
+import partner06 from "./partner06.png";
+import BioLogo from "./BioLogoGreen.png";
+import { FaSquareFacebook } from "react-icons/fa6";
+import { BsInstagram } from "react-icons/bs";
+import { FaLinkedin } from "react-icons/fa";
+import { BsYelp } from "react-icons/bs";
+import { FaYoutube } from "react-icons/fa";
 
 export {
   airbnb,
@@ -61,5 +67,11 @@ export {
   partner03,
   partner04,
   partner05,
-  partner06
+  partner06,
+  BioLogo,
+  FaSquareFacebook,
+  BsInstagram,
+  FaLinkedin,
+  BsYelp,
+  FaYoutube,
 };
