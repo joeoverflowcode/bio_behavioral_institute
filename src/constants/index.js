@@ -1,10 +1,11 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, partner01, partner02, partner03, partner04, partner05, partner06} from "../assets";
 import React from "react";
 import { GoHeartFill } from "react-icons/go";
 import { GoHomeFill } from "react-icons/go";
 import { BsPersonRaisedHand } from "react-icons/bs";
 import { IoIosPeople } from "react-icons/io";
 import { FaPeopleGroup } from "react-icons/fa6";
+
 
 export const navLinks = [
   {
@@ -202,21 +203,29 @@ export const socialMedia = [
   },
 ];
 
-export const clients = [
+export const partners = [
   {
-    id: "client-1",
-    logo: airbnb,
+    id: "partner-2",
+    logo: partner02,
   },
   {
-    id: "client-2",
-    logo: binance,
+    id: "partner-4",
+    logo: partner04,
   },
   {
-    id: "client-3",
-    logo: coinbase,
+    id: "partner-1",
+    logo: partner01,
   },
   {
-    id: "client-4",
-    logo: dropbox,
+    id: "partner-3",
+    logo: partner03,
+  },
+  {
+    id:"partner-6",
+    logo: partner06,
+  },
+  {
+    id: "partner-5",
+    logo: partner05,
   },
 ];

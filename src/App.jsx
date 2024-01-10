@@ -9,6 +9,7 @@ import {Navbar,
   Footer,
   Stats,
   Treatments,
+  Partners,
   Business} from './components'
 
 
@@ -36,6 +37,7 @@ const App = () =>
       <Treatments/>
       <Facility/> 
       <Testimonials/> 
+      <Partners />
       <Contact/>
       <Footer/>
     </div>

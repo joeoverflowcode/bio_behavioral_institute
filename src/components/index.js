@@ -8,6 +8,7 @@ import Stats from "./Stats";
 import Contact from "./Contact";
 import Business from "./Business";
 import Treatments from "./Treatments";
+import Partners from "./Partners"
 
 export{
     Navbar,
@@ -20,5 +21,6 @@ export{
     Stats,
     Business,
     Treatments,
+    Partners
 
 }

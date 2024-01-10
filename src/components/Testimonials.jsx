@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../styles'
 import FeedBack from './Feedback'
 import { feedback } from '../constants'
-import beefloat from '../assets/beefloat.svg'
+import bee from '../assets/bee.svg'
 
 
 const Testimonials = () => (
@@ -10,13 +10,13 @@ const Testimonials = () => (
     {/* TODO */}
     <div className='absolute z-[0] w-[60%] h-[60%] -right-[65%] rounded-full orange__gradient'/>
 
-    <div className='w-full flex md:justify-center md:flex-row  sm:mb-16 mb-6 relative z-[1] text-center'>
-      <img src={beefloat} alt='beefloat' className='w-[200px] left-0 md:w-[250px] h-[100px] md:absolute md:left-10 md:bottom-0' />
+      <img src={bee} alt='beefloat' className='absolute top-10 left-0 sm:top-20 md:left-20 w-[100px] sm:w-[160px]' />
+    <div className='flex flex-col items-center justify-center  sm:mb-16 mb-6 relative z-[1] text-center'>
+      {/* <img src={beefloat} alt='beefloat' className='min-w-[250px] left-0 md:absolute md:left-10 bottom-0' /> */}
 
-      <h1 className={`${styles.heading2} w-[400px]`}   >
-      Messages From <br className=''/> 
+      <h1 className={`${styles.heading2} w-[400px] ss:text-[64px]`}   >
+      Hear From <br className=''/> 
       Our Leaders:  
-      {/* <img src={beefloat} alt='beefloat' className='sm:hidden block w-[250px] h-[100px] ' /> */}
       </h1>
 
       {/* <div className='w-full md:mt-0 mt-6'>
