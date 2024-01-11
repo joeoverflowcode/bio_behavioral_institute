@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from '../styles'
 import biobees from '../assets2/biobees.png'
+import biobees2 from '../assets/biobees2.png'
+import biobees3 from '../assets/BioBees3.png'
 import { discount } from '../assets'
 import GetStarted from './GetStarted'
 import { FaPercentage } from "react-icons/fa";
@@ -40,7 +42,7 @@ const Hero = () =>  (
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={biobees} alt='' className='w-[100%] h-[100%] relative z-[5]'/>
+        <img src={biobees3} alt='' className='w-[100%] h-[100%] relative z-[5]'/>
 
         <div className='absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient'/>
         <div className='absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient'/>

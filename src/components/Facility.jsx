@@ -7,7 +7,7 @@ const Facility = () => (
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          State of the Art Facility<br className='sm:block hidden'/>
+          State of the Art Facility <br className='sm:block hidden'/>
           and Award Winning Staff
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>

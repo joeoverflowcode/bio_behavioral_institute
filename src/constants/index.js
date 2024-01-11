@@ -223,26 +223,38 @@ export const socialMedia = [
 export const partners = [
   {
     id: "partner-2",
+    abbreviation: "APA",
+    name:"American Psychological Association",
     logo: partner02,
   },
   {
     id: "partner-4",
+    abbreviation: "ABPP",
+    name:"American Board of Professional Psychology",
     logo: partner04,
   },
   {
     id: "partner-1",
+    abbreviation: "IOCDF",
+    name:"International OCD Foundation",
     logo: partner01,
   },
   {
     id: "partner-3",
+    abbreviation: "TAA",
+    name:"Tourette Association of America",
     logo: partner03,
   },
   {
     id:"partner-6",
+    abbreviation: "NEDA",
+    name:"National Eating Disorders Association",
     logo: partner06,
   },
   {
     id: "partner-5",
+    abbreviation: "ADAA",
+    name:"Anxiety & Depression Association of America",
     logo: partner05,
   },
 ];
