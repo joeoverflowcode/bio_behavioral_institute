@@ -1,5 +1,6 @@
 import React from 'react'
 import treatmentsbee from '../assets/treatmentsbee.png'
+import treatmentsbee2 from '../assets/treatmentsbee2.png'
 import styles, {layout} from '../styles'
 import Button from './Button'
 import GetStarted from './GetStarted'
@@ -7,7 +8,7 @@ import GetStarted from './GetStarted'
 const Treatments = () => (
     <section id='treatments' className={layout.sectionReverse}>
         <div className={layout.sectionImgReverse}>
-            <img src={treatmentsbee} alt='treatments' className='w-[100%] h-[100%] relative z-[5]'/>
+            <img src={treatmentsbee2} alt='treatments' className='w-[100%] h-[100%] relative z-[5]'/>
 
             <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full orange__gradient'/>
             <div className='absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient'/>

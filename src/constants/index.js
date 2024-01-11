@@ -120,28 +120,23 @@ export const footerLinks = [
     links: [
       {
         id:"link-1",
-        name: "Content",
+        name: "Treatments We Offer",
         link: "https://www.hoobank.com/content/",
       },
       {
         id:"link-2",
-        name: "How it Works",
+        name: "Our Team",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
         id:"link-3",
-        name: "Create",
+        name: "Clinic History",
         link: "https://www.hoobank.com/create/",
       },
       {
         id:'link-4',
-        name: "Explore",
+        name: "Learn More",
         link: "https://www.hoobank.com/explore/",
-      },
-      {
-        id:'link-5',
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
@@ -154,14 +149,19 @@ export const footerLinks = [
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        id:'link-8',
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        id:'link-9',
+        name: "Consulting Psychiatrists",
+        link: "https://www.hoobank.com/suggestions/",
       },
       {
-        id:'link-9',
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        id:'link-11',
+        name: "Books By Our Staff",
+        link: "https://www.hoobank.com/newsletters/",
+      },
+      {
+        id:'link-8',
+        name: "Programs",
+        link: "https://www.hoobank.com/partners/",
       },
       {
         id:'link-10',
@@ -176,16 +176,16 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Partner",
+    title: "Partners",
     links: [
       {
         id:'link-12',
-        name: "Our Partner",
+        name: "Our Partners",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
         id:'link-13',
-        name: "Become a Partner",
+        name: "Internships",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
