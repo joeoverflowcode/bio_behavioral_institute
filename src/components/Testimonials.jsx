@@ -10,11 +10,11 @@ const Testimonials = () => (
     {/* TODO */}
     <div className='absolute z-[0] w-[60%] h-[60%] -right-[65%] rounded-full orange__gradient'/>
 
-      <img src={bee} alt='beefloat' className='absolute z-10 top-28 -left-12 sm:top-20 md:left-20 w-[100px] sm:w-[160px]' />
+      <img src={bee} alt='beefloat' className='absolute z-10 top-28 -left-10 sm:top-20 md:left-20 w-[100px] sm:w-[160px]' />
     <div className='flex flex-col items-center justify-center  sm:mb-16 mb-6 relative z-[1] text-center'>
       {/* <img src={beefloat} alt='beefloat' className='min-w-[250px] left-0 md:absolute md:left-10 bottom-0' /> */}
 
-      <h1 className={`${styles.heading2} w-[400px] ss:text-[64px]`}   >
+      <h1 className={`${styles.heading2} w-[400px] `}   >
       Hear From <br className=''/> 
       Our Leaders:  
       </h1>

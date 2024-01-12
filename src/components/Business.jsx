@@ -22,10 +22,11 @@ const FeatureCard = ({icon: Icon,title,content,index, className}) => (
 
 const Business = () => {
   return (
+
     <section id='features' className={layout.section}>
-        <div className={layout.sectionInfo}>
-            <h2 className={styles.heading2}>Our Patient Promise</h2>
-            <p className={`${styles.paragraph} max-w-[470px] mt-3`}> Our goal is to help you lead a fulfilling life based on your values and capabilities. We strive to enhance your quality of life beyond your psychological condition. We will support you every step of the way.</p>
+        <div className={`${layout.sectionInfo}`}>
+            <h2 className={`${styles.heading2} font-amiri`}>Our Patient Promise</h2>
+            <p className={`${styles.paragraph} max-w-[470px] mt-3 font-amiri text-xl tracking-wide`}> Our goal is to help you lead a fulfilling life based on your values and capabilities. We strive to enhance your quality of life beyond your psychological condition. We will support you every step of the way.</p>
             <Button styles='mt-10'/>
         </div>
 

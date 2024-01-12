@@ -13,6 +13,7 @@ export default {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        amiri: ["Amiri", "serif"]
       },
     },
     screens: {

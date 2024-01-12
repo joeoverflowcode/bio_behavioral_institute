@@ -37,7 +37,7 @@ const Hero = () =>  (
         <h1 className='font-poppins font-semibold ss:text-[58px] text-[52px] text-black ss:leading-[100px] leading-[75px]w-full tracking-tighter'> 
               Treatment Methods.
             </h1>
-        <p className={`${styles.paragraph} max-w-[470px]`}>
+        <p className={`${styles.paragraph} max-w-[470px] font-amiri text-[20px] tracking-wider`}>
         Our philosophy is to provide the best possible care for our patients. Every patient is evaluated thoroughly with attention given to the social, biological and psychological factors contributing to their current situation. 
         </p>
       </div>

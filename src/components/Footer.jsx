@@ -23,7 +23,7 @@ const Footer = () => (
       </span>
 
 
-        <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
+        <p className={`${styles.paragraph} mt-4 max-w-[310px] font-amiri text-[20px]`}>
         Our philosophy is to provide the best possible care for our patients. We will support you every step of the way.
         </p>
       </div>
