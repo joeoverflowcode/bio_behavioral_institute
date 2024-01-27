@@ -6,7 +6,7 @@ import bee from '../assets/bee.svg'
 
 
 const Testimonials = () => (
-  <section id="clients" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
+  <section id="testimonials" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
     {/* TODO */}
     <div className='absolute z-[0] w-[60%] h-[60%] -right-[65%] rounded-full orange__gradient'/>
 
