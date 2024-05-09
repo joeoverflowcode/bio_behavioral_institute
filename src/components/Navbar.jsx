@@ -13,7 +13,7 @@ const Navbar = () => {
     const [toggle, settoggle] = useState(false)
 
   return (
-    <nav className='w-full flex py-6 justify-between items-center navbar'>
+    <nav className='w-full flex py-6 justify-between items-center'>
 <span className='flex items-center justify-center'>
       
       <img src={BioLogoGreen} className='w-[90px]' alt='BioLogo'/>
@@ -24,9 +24,7 @@ const Navbar = () => {
       <p className='text-[#86ad0f]'>B<span className='text-[#86ad0f] font-thin tracking-widest pl-0.5'>io</span></p> 
       <p className=''>B<span className='text-black font-thin'>ehavioral.</span></p>
       </div>
-      {/* <div className=''>
-       <p className=''>I<span className='text-black tracking-widest pl-0.5'>nstitute.</span></p>
-      </div> */}
+
       </div>
       </span>
 

@@ -18,6 +18,7 @@ const App = () =>
   (
     <div className='bg-primary w-full overflow-hidden'>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        
         <div className={`${styles.boxWidth}`}>
       <Navbar/>
         </div>
@@ -34,12 +35,12 @@ const App = () =>
       {/* <About/> */}
       <Stats /> 
       <Business />
-      <Treatments/>
-      <Facility/> 
-      <Testimonials/> 
+      <Treatments />
+      <Facility /> 
+      <Testimonials /> 
       <Partners />
-      <Contact/>
-      <Footer/>
+      <Contact />
+      <Footer />
     </div>
 </div>
 
