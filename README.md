@@ -25,16 +25,15 @@ List the technologies and tools you used to develop the project. This could incl
    ```bash
    git clone https://github.com/joeoverflowcode/bio_behavioral_institute.git
 
-### Prerequisites
+4. Inside the cloned repository run `npm install` in order to download all the dependencies:
 
-- [List of prerequisites]
+   ```bash
+   npm install
 
-### Installation
+5. Inside repository run `npm run dev` to start:
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/joeoverflowcode/bio_behavioral_institute.git
+   ```bash
+   npm run dev
 
 
 # React + Vite
